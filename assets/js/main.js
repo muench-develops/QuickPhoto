@@ -41,3 +41,25 @@ Suche.addEventListener("change", function(event){
     };
     
 });
+
+document.addEventListener("DOMContentLoaded", (event) => {
+    console.log('DOM is ready.')
+    for(var i = 0; i < Bilder.length; i++){
+        if(Bilder[i].onclick == null){
+            Bilder[i].addEventListener("click", imgClick.bind(Bilder[i]), false);
+        }
+    }
+});
+
+// Funkt nicht xD
+function imgClick(){
+    console.log(this.classList);
+    if(this.classList.contains("border border-success")){
+        this.classList.add("border border-success");
+        console.log(this.classList);
+    }
+    else{
+        this.classList.remove("border");
+        this.classList.remove("border-success");
+    }
+}

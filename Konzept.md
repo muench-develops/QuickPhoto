@@ -98,3 +98,13 @@ Javascript Funktionen:
     10. src in Console Ausgeben
     11. src prüfen, ob Eingabe name passt. 
         1. Wenn Bilder[i].src.includes(suchWert) dann einblenden sonst ausbleden
+
+- Like - Bilder:
+- Aufgabe 1:
+    1. Document rdy
+    2. Image onclick function hinzufügen
+    3. DomContentLoaded Eventlistener
+    4. Wenn Bilder[i].onclick == null
+    5. Füge Bilder[i].onclick = function(){console.log(Bilder[i].src)};
+
+- User dropdown ein und Ausblenden
