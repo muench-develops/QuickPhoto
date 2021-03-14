@@ -36,7 +36,7 @@
 
 - Aufgabe 5 - User:
     1. Innerhalb des User Divs 1 Div mit 2 (25%, 75%) Unter Divs erstellen
-    2. In das erste der beiden Unter Divs ein Bild einbinden
+    2. In das erste der beiden unter-Divs ein Bild einbinden
     3. Bild über class rounded-circle rund machen
     4. User-Div nach rechts einrücken
     5. Bild umrahmen (border, border-dark)
@@ -45,3 +45,11 @@
     1. Unter User Div einen Rahmen einfügen
     2. Abstand über padding ausprobieren (py) ausprobieren
 
+- Aufgabe 7 - Galerie:
+    1. Unsplash.com 3 Bilder aussuchen
+    2. Auf gleiche Höhe / Breite achten
+    3. Bilder herunterladen in small
+    4. In Order assets / media ablegen
+    5. Umbennen der Bilder in image1 bis image 3
+    6. In Galerie Div ein weiteres Div erstellen 
+    7. Bilder einbinden
