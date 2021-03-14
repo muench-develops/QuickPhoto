@@ -26,4 +26,15 @@
     4. Haussymbol, DM, Kompass und Herzsymbol [ ]
     5. d-inline-block [ ]
     6. Größe der Icons anpassen [ ]
+- Aufgabe 4:
+    1. Hintergrundfarbe der Seite ändern --> rgba(var(--b3f,250,250,250),1)
+    2. Kommentare Navigation, User und Bilder erstellen
+    3. Div für User und Bilder Galerie unterhalb der Navigation erstellen
+- Aufgabe 5 - User:
+    1. Innerhalb des User Divs 1 Div mit 2 (25%, 75%) Unter Divs erstellen
+    2. In das erste der beiden Unter Divs ein Bild einbinden
+    3. Bild über class rounded-circle rund machen
+    4. User-Div nach rechts einrücken
+    5. Bild umrahmen (border, border-dark)
+    6. Username, Beiträge, Abonennten, abonniert und Biografie erstellen.
 
