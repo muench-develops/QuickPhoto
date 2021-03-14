@@ -2,7 +2,7 @@ var btnAbonnieren = document.getElementById("btnAbonnieren");
 var divAbonniert = document.getElementById("divAbonniert");
 var Suche = document.getElementById("Suche");
 var Galerie = document.getElementById("Galerie");
-
+var Bilder = Galerie.getElementsByTagName("img");
 
 btnAbonnieren.addEventListener("click", function(event){
     event.preventDefault();
@@ -23,13 +23,21 @@ function toggleAbonniert(){
 }
 
 Suche.addEventListener("change", function(event){
-    var suchWert = event.target.value;
-    console.log(suchWert);
-    if(suchWert.length >= 2) {
-        console.log("Suche gestartet");
-        var Bilder = Galerie.getElementsByTagName("img");
-        for(var i = 0; i < Bilder.length; i++){
-            console.log(Bilder[i]);
+    var suchWert = new String(event.target.value);
+    console.log(suchWert);  
+    console.log("Suche gestartet");        
+    for(var i = 0; i < Bilder.length; i++){
+        if(suchWert.length >= 1) {
+            if(Bilder[i].src.includes(suchWert)){
+                Bilder[i].style.display = "block";
+            }
+            else{
+                Bilder[i].style.display = "none";
+            }
         }
-    }
+        else{
+            Bilder[i].style.display = "block";
+        }
+    };
+    
 });

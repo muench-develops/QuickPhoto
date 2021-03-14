@@ -79,7 +79,6 @@ Javascript Funktionen:
     12. class = "align-self-center und mb-0" hinzufügen
     12. in main js function toggleAbonniert erstellen
 
-
 - Suchfunktionalität:
 - Aufgabe 1
     1. Input Feld Id zuweisen: Suche
@@ -95,6 +94,7 @@ Javascript Funktionen:
     7. Variable erstellen Bilder
     8. Console.Log(Bilder[0]) um erste Bild auszugeben
 - Aufgabe 3_
-    9. Durch bilder loopen
-    10. src auf Suchwert prüfen
-    11. Ein und Ausblenden, falls passt
+    9.  Durch bilder loopen for(var i = 0; i < Bilder.length; i++)
+    10. src in Console Ausgeben
+    11. src prüfen, ob Eingabe name passt. 
+        1. Wenn Bilder[i].src.includes(suchWert) dann einblenden sonst ausbleden
