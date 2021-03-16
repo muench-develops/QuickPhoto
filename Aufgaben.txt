@@ -1,0 +1,165 @@
+Aufgaben
+--------
+
+Aufgabe 1 - Grundgerüst erstellen
+    - Dateien erstellen: index.html, main.js, main.css (assets/js und assets/css)
+    - HTML Grundgerüst in index.html kopieren
+        - Google --> Html Grundgerüst 
+            - Eintrag: wiki.self.html.org dort das HTML Grundgerüst kopieren
+
+Aufgabe 2 - Seiten Titel anpassen
+    - Den Seiten Titel anpassen 
+    - Seiten Titel ist der Text, welcher im Browser Tab zu sehen ist
+    - <title>Überschrift</title>
+
+Aufgabe 3 - Weitere Dateien einbinden
+    - Boostrap und eigene Dateien einbinden
+    - Boostrap: https://getbootstrap.com/docs/5.0/getting-started/introduction/#quick-start
+        - Dort gibt es paar JS -Script Links --> Diese kommen ans Ende des <Body> Tags --> D.h. über "</Body>"
+        - Sowie ein link für css dieser kommt in den Kopfbereich <Head></Head>
+
+Aufgabe 4 - Überschrift Ausgeben
+    - Innerhalb des <Body> - Tags einen neuen Tag <h1>QuickPhoto</h1> erstellen
+
+Aufgabe 5 - Google Fonts einbinden
+    - <link rel="preconnect" href="https://fonts.gstatic.com">
+    - <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap"> 
+    - Beide Links im <Head> einfügen  
+
+Aufgabe 6 - Schrift zuweisen
+    - Main.css öffnen
+    - body{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+        font-size: 14px;} einfügen
+
+Aufgabe 7 - Container erstellen und Trennlinie einfügen
+    - <div class="container"></div> erstellen
+    - <hr /> Tag unter der Überschrift einfügen
+
+Aufgabe - 8 - Navigation erstellen
+    - Kommentar erstellen:  <!--Navigation-->
+    - Unterhalb des Kommentars: 
+        - Ein <div> erstellen und die class d-flex zuweisen
+        - Innerhalb des <div> 3 weitere Divs erstellen
+        - Dem oberen Div zusätzlich "border-bottom" als Klasse hinzufügen
+        - <hr/> Tag entfernen
+
+Aufgabe - 9 - Fontawesome einbinden
+    - <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> im Kopfbereich (<head></head>) einbinden
+
+Aufgabe - 10 - Brand erstellen
+    - In das erste unter-Div für die Navigation <i class="fa fa-instagram mr-1" aria-hidden="true"></i> einfügen
+    - Die Überschrift <h1>QuickPhoto</h1> ausschneiden und hinter dem </i> einfügen
+
+Aufgabe - 11 - Suche einfügen
+    - In das nächste Div Suche einfügen
+    - Hierfür https://getbootstrap.com/docs/5.0/forms/input-group/#basic-example aufrufen
+    - Das Beispiel für Username kopieren und in unserer index.html einfügen
+    - Das @ Zeichen im Span Tag ersetzen durch: <i class="fa fa-search" aria-hidden="true"></i>
+    - Im input - Tag placeholer suchen und "Username" durch "Suche" ersetzen
+    - In dem Div mit der Klasse input-group das mb-3 entfernen
+    - Ändert die id des <input> Tags auf "Suche" ab
+
+Aufgabe - 12 - Icons einfügen
+    - Dem dritten Div die Klasse d-inline-block hinzufügen
+    -   <i class="fa fa-home fa-2x mr-2" aria-hidden="true"></i>
+        <i class="fa fa-location-arrow  fa-2x mr-2" aria-hidden="true"></i>
+        <i class="fa fa-heart-o  fa-2x mr-2" aria-hidden="true"></i>
+        <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i> innerhalb des Divs einfügen
+
+Aufgabe - 13 - User Div erstellen
+    - Ein neues Div mit den Klassen "ml-5 py-5" unterhalb der Navigation div erstellen
+    - Kommenar <!--User--> oberhalb des neu erstellten Divs einfügen
+    - Ein weiteres Div innerhalb des neu erstellten Divs einfügen
+    - Innerhalb diesem Div zwei weitere Divs erstellen
+        - das erste Div bekommt die Klasse w-25
+            - Ein Bild einfügen: <img src="assets/media/user/user.jpg" class="border border-dark rounded-circle" width="150px" height="auto" />
+            - Hier uns kurs Bescheid geben, dann bekommt Ihr das Bild von uns.
+        - das zweite Div bekommt die Klasse w-75
+            - Hier folgendes einfügen: 
+              "<!--Username-->
+                <div class="d-flex d-inline-flex">
+                    <span class="mr-2 d-inline"><h3 class="mb-0">User</h3></span>
+                    <button id="btnAbonnieren" type="button" class="btn btn-primary btn-sm">abonnieren</button>
+                    <div id="divAbonniert" class="align-self-center mb-0" style="display: none;">
+                        <i class="fa fa-check mr-1" aria-hidden="true"></i>
+                        abonniert
+                    </div>
+                </div>
+
+                <!--User Informationen-->
+                <div class="mt-3">
+                    <span class="mr-2"><b>1400</b> Beiträge</span>
+                    <span class="mr-2"><b>85,3k</b> Abonnenten</span>
+                    <span class="mr-2"><b>10</b> abonniert</span>
+                </div>
+
+                <!--Biografie-->
+                <div class="mt-3"><b>Meine Biografie</b><br/>
+                Ich heiße Max Muster...<br/>
+                Blubb blubb blubb
+                </div>"
+        - Unterhalb des Divs eine Trennlinie einfügen
+
+Aufgabe - 14 - Galerie
+    - Unter der Trennlinie ein neues Div mit der Klasse "py-5" erstellen
+    - 2 weitere Divs erstellen mit den Klassen "d-flex justify-content-between"
+    - Dem unteren der beiden Divs zusätzlich die Klasse "mt-3" hinzufügen
+    - Nun müsst Ihr uns wieder bescheid geben, sodass Ihr die Bilder von uns erhaltet
+    - Dann fügt ihr 3 mal folgendes innerhalb des Divs ein:
+        - <img src="assets/media/uploads/image1.jpg" class="img-thumbnail shadow" width="350px" height="auto" />
+        - src ist der Pfad zur dem Bild. 
+        - Hier müsst Ihr image1 im zweiten und dritten Bild entsprechend auf image2 und image3 ändern
+
+Die Folgenden Aufgaben fügen weitere Funktionalitäten der Seite hinzu:
+
+Aufgabe - 15 - Javascript Funktionalitäten hinzufügen
+    - Sucht den Button in unserer index.html und schaut euch an wie die dieser heißt (id="???")
+    - Fügt in der main.js folgendes ein:
+        $(document).ready(function () {
+            //Ein und Ausblenden von Abonniert Btn
+            $('#btnAbonnieren').click(function () {
+                $('#btnAbonnieren').hide();
+                $('#divAbonniert').show();
+            });
+            $('#divAbonniert').click(function () {
+                $('#btnAbonnieren').show();
+                $('#divAbonniert').hide();
+            });
+        });
+    - Klickt auf den Button und schaut Euch an was passiert
+
+Aufgabe 16 - Suche
+    - Fügt dem Div, welches die zwei unter Divs mit den Bildern für die Galerie beinhaltet die folgende Id hinzu: #Galerie
+    - Wechselt in die main.js und fügt unterhalb des  
+        $('#divAbonniert').click(function () {
+            $('#btnAbonnieren').show();
+            $('#divAbonniert').hide();
+        });
+    - Folgendes hinzu:
+        //Suche - Funktion
+        $('#Suche').on('input', function () {
+                var suchwert = $(this).val();                
+                $('#Galerie img').each(function () {
+                if ($(this).attr('src').indexOf(suchwert) != -1) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+        });
+    - Gebt etwas in das Suchfeld ein
+    - Nun gebt einen image namen ein
+
+Aufgabe 17 - Like Funktionalität
+- Folgendes unter der Suche einfügen:
+    $('#Galerie img').each(function () {
+        $(this).on('click', function () {
+        if (!$(this).hasClass('border border-primary')) {
+            $(this).addClass('border border-primary');
+        } else {
+            $(this).removeClass('border border-primary');
+        }
+        });
+    });
+- Bild anklicken
