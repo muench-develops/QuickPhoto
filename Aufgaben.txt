@@ -163,3 +163,24 @@ Aufgabe 17 - Like Funktionalität
         });
     });
 - Bild anklicken
+
+Aufgabe 18 - Login erstellen
+- File erstellen: login.html
+- Inhalt aus index.html kopieren
+- Alles innerhalb des Bodys bis auf Skripte unten und das Container Div entfernen
+- Sucht nach Boostrap und Login und versucht mal euer erstes Login Formular zu erstellen
+
+Aufgabe 19 - Login Javascript
+- Erstellt ein login.js file im Ordner js
+- bindet dieses in der login.html ein
+- entfernt das main.js aus dem login.html
+- Fügt folgenden Code Snipsel in login.js ein:
+    $(document).ready(function () {
+ 
+    });
+- Selektiert den Submit Button ähnlich der Selektion des btnAbonnieren
+- Und gebt über alert() einen Text aus
+
+Aufgabe 20 - Input der Felder Ausgeben
+- Nun fangt den Input der Felder ab
+- Und gebt diesen aus
