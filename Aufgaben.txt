@@ -2,7 +2,7 @@ Aufgaben
 --------
 
 Aufgabe 1 - Grundgerüst erstellen
-    - Dateien erstellen: index.html, main.js, main.css (assets/js und assets/css)
+    - Dateien erstellen: index.html, main.js, main.css
     - HTML Grundgerüst in index.html kopieren
         - Google --> Html Grundgerüst 
             - Eintrag: wiki.self.html.org dort das HTML Grundgerüst kopieren
@@ -73,7 +73,7 @@ Aufgabe - 13 - User Div erstellen
     - Ein weiteres Div innerhalb des neu erstellten Divs einfügen
     - Innerhalb diesem Div zwei weitere Divs erstellen
         - das erste Div bekommt die Klasse w-25
-            - Ein Bild einfügen: <img src="assets/media/user/user.jpg" class="border border-dark rounded-circle" width="150px" height="auto" />
+            - Ein Bild einfügen: <img src="/media/user/user.jpg" class="border border-dark rounded-circle" width="150px" height="auto" />
             - Hier uns kurs Bescheid geben, dann bekommt Ihr das Bild von uns.
         - das zweite Div bekommt die Klasse w-75
             - Hier folgendes einfügen: 
@@ -107,7 +107,7 @@ Aufgabe - 14 - Galerie
     - Dem unteren der beiden Divs zusätzlich die Klasse "mt-3" hinzufügen
     - Nun müsst Ihr uns wieder bescheid geben, sodass Ihr die Bilder von uns erhaltet
     - Dann fügt ihr 3 mal folgendes innerhalb des Divs ein:
-        - <img src="assets/media/uploads/image1.jpg" class="img-thumbnail shadow" width="350px" height="auto" />
+        - <img src="/media/uploads/image1.jpg" class="img-thumbnail shadow" width="350px" height="auto" />
         - src ist der Pfad zur dem Bild. 
         - Hier müsst Ihr image1 im zweiten und dritten Bild entsprechend auf image2 und image3 ändern
 
