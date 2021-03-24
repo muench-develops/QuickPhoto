@@ -12,6 +12,8 @@ Aufgabe 2 - Seiten Titel anpassen
     - Seiten Titel ist der Text, welcher im Browser Tab zu sehen ist
     - <title>Überschrift</title>
 
+______________________________________________________________________________
+
 Aufgabe 3 - Weitere Dateien einbinden
     - Boostrap und eigene Dateien einbinden
     - Boostrap: https://getbootstrap.com/docs/5.0/getting-started/introduction/#quick-start
@@ -25,6 +27,7 @@ Aufgabe 5 - Google Fonts einbinden
     - <link rel="preconnect" href="https://fonts.gstatic.com">
     - <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap"> 
     - Beide Links im <Head> einfügen  
+______________________________________________________________________________
 
 Aufgabe 6 - Schrift zuweisen
     - Main.css öffnen
@@ -43,6 +46,7 @@ Aufgabe - 8 - Navigation erstellen
         - Innerhalb des <div> 3 weitere Divs erstellen
         - Dem oberen Div zusätzlich "border-bottom" als Klasse hinzufügen
         - <hr/> Tag entfernen
+______________________________________________________________________________
 
 Aufgabe - 9 - Fontawesome einbinden
     - <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> im Kopfbereich (<head></head>) einbinden
@@ -50,6 +54,8 @@ Aufgabe - 9 - Fontawesome einbinden
 Aufgabe - 10 - Brand erstellen
     - In das erste unter-Div für die Navigation <i class="fa fa-instagram mr-1" aria-hidden="true"></i> einfügen
     - Die Überschrift <h1>QuickPhoto</h1> ausschneiden und hinter dem </i> einfügen
+
+______________________________________________________________________________
 
 Aufgabe - 11 - Suche einfügen
     - In das nächste Div Suche einfügen
@@ -66,10 +72,11 @@ Aufgabe - 12 - Icons einfügen
         <i class="fa fa-location-arrow  fa-2x mr-2" aria-hidden="true"></i>
         <i class="fa fa-heart-o  fa-2x mr-2" aria-hidden="true"></i>
         <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i> innerhalb des Divs einfügen
+______________________________________________________________________________
 
 Aufgabe - 13 - User Div erstellen
     - Ein neues Div mit den Klassen "ml-5 py-5" unterhalb der Navigation div erstellen
-    - Kommenar <!--User--> oberhalb des neu erstellten Divs einfügen
+    - Kommentar <!--User--> oberhalb des neu erstellten Divs einfügen
     - Ein weiteres Div innerhalb des neu erstellten Divs einfügen
     - Innerhalb diesem Div zwei weitere Divs erstellen
         - das erste Div bekommt die Klasse w-25
@@ -100,6 +107,7 @@ Aufgabe - 13 - User Div erstellen
                 Blubb blubb blubb
                 </div>"
         - Unterhalb des Divs eine Trennlinie einfügen
+______________________________________________________________________________
 
 Aufgabe - 14 - Galerie
     - Unter der Trennlinie ein neues Div mit der Klasse "py-5" erstellen
@@ -110,7 +118,7 @@ Aufgabe - 14 - Galerie
         - <img src="/media/uploads/image1.jpg" class="img-thumbnail shadow" width="350px" height="auto" />
         - src ist der Pfad zur dem Bild. 
         - Hier müsst Ihr image1 im zweiten und dritten Bild entsprechend auf image2 und image3 ändern
-
+______________________________________________________________________________
 Die Folgenden Aufgaben fügen weitere Funktionalitäten der Seite hinzu:
 
 Aufgabe - 15 - Javascript Funktionalitäten hinzufügen
@@ -128,7 +136,7 @@ Aufgabe - 15 - Javascript Funktionalitäten hinzufügen
             });
         });
     - Klickt auf den Button und schaut Euch an was passiert
-
+______________________________________________________________________________
 Aufgabe 16 - Suche
     - Fügt dem Div, welches die zwei unter Divs mit den Bildern für die Galerie beinhaltet die folgende Id hinzu: #Galerie
     - Wechselt in die main.js und fügt unterhalb des  
@@ -150,7 +158,7 @@ Aufgabe 16 - Suche
         });
     - Gebt etwas in das Suchfeld ein
     - Nun gebt einen image namen ein
-
+______________________________________________________________________________
 Aufgabe 17 - Like Funktionalität
 - Folgendes unter der Suche einfügen:
     $('#Galerie img').each(function () {
@@ -163,13 +171,13 @@ Aufgabe 17 - Like Funktionalität
         });
     });
 - Bild anklicken
-
+______________________________________________________________________________
 Aufgabe 18 - Login erstellen
 - File erstellen: login.html
 - Inhalt aus index.html kopieren
 - Alles innerhalb des Bodys bis auf Skripte unten und das Container Div entfernen
 - Sucht nach Boostrap und Login und versucht mal euer erstes Login Formular zu erstellen
-
+______________________________________________________________________________
 Aufgabe 19 - Login Javascript
 - Erstellt ein login.js file im Ordner js
 - bindet dieses in der login.html ein
@@ -180,7 +188,7 @@ Aufgabe 19 - Login Javascript
     });
 - Selektiert den Submit Button ähnlich der Selektion des btnAbonnieren
 - Und gebt über alert() einen Text aus
-
+______________________________________________________________________________
 Aufgabe 20 - Input der Felder Ausgeben
 - Nun fangt den Input der Felder ab
 - Und gebt diesen aus
